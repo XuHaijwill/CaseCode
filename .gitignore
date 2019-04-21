@@ -1,0 +1,11 @@
+/.metadata/
+
+/ssm-rest/.settings
+/ssm-rest/target
+/ssm-rest/images
+/ssm-rest/WebContent
+/ssm-rest/.classpath
+/ssm-rest/.project
+/ssm-rest/.springBeans
+
+
