@@ -3,6 +3,7 @@ package com.xhjc.rabbitmq.simple;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
+import com.rabbitmq.client.CancelCallback;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConsumerCancelledException;
@@ -28,7 +29,18 @@ public class Recv {
 			String message = new String(delivery.getBody(), "UTF-8");
 			System.out.println(" [x] Received '" + message + "'");
 		};
-		channel.basicConsume(QUEUE_NAME, true, deliverCallback, consumerTag -> {
+		
+		
+		
+//		channel.basicConsume(QUEUE_NAME, true, deliverCallback, consumerTag -> {
+//		});
+		
+		channel.basicConsume(QUEUE_NAME, true, deliverCallback, new CancelCallback() {
+			
+			@Override
+			public void handle(String consumerTag) throws IOException {
+				System.out.println("结束-->");
+			}
 		});
 	}
 
