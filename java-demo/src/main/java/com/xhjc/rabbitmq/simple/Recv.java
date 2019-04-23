@@ -3,14 +3,10 @@ package com.xhjc.rabbitmq.simple;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
-import com.rabbitmq.client.BasicProperties;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConsumerCancelledException;
-import com.rabbitmq.client.DefaultConsumer;
-import com.rabbitmq.client.Envelope;
-import com.rabbitmq.client.QueueingConsumer;
-import com.rabbitmq.client.QueueingConsumer.Delivery;
+import com.rabbitmq.client.DeliverCallback;
 import com.rabbitmq.client.ShutdownSignalException;
 import com.xhjc.rabbitmq.utils.ConnectionUtils;
 
@@ -18,48 +14,22 @@ public class Recv {
 
 	private static final String QUEUE_NAME = "test_simple_queue";
 
-	@SuppressWarnings("deprecation")
-	public static void main(String[] args) throws IOException,
-			TimeoutException, ShutdownSignalException,
+	public static void main(String[] args) throws IOException, TimeoutException, ShutdownSignalException,
 			ConsumerCancelledException, InterruptedException {
 		System.out.println("strat--->");
 		// 获取连接
 		Connection connection = ConnectionUtils.getConnection();
-		// 创建频道
+
 		Channel channel = connection.createChannel();
-		
-		//队列声明  
+
 		channel.queueDeclare(QUEUE_NAME, false, false, false, null);
-		//定义消费者
-		DefaultConsumer consumer = new DefaultConsumer(channel){
-			//获取到达消息
-			public void handleDelivery(String consumerTag, Envelope envelope,
-					BasicProperties properties, byte[] body) throws IOException {
-			 
-				String msg=new String(body,"utf-8");
-				System.out.println("new api recv:"+msg);
-			}
+
+		DeliverCallback deliverCallback = (consumerTag, delivery) -> {
+			String message = new String(delivery.getBody(), "UTF-8");
+			System.out.println(" [x] Received '" + message + "'");
 		};
-		
-		//监听队列    
-		channel.basicConsume(QUEUE_NAME, true,consumer);
+		channel.basicConsume(QUEUE_NAME, true, deliverCallback, consumerTag -> {
+		});
 	}
 
-	private static void oldapiu() throws IOException, TimeoutException,
-			InterruptedException {
-		// 获取连接
-		Connection connection = ConnectionUtils.getConnection();
-
-		// 创建频道
-		Channel channel = connection.createChannel();
-		// 定义队列的消费者
-		QueueingConsumer consumer = new QueueingConsumer(channel);
-		// 监听队列
-		channel.basicConsume(QUEUE_NAME, true, consumer);
-		while (true) {
-			Delivery delivery = consumer.nextDelivery();
-			String msgString = new String(delivery.getBody());
-			System.out.println("[recv] msg:" + msgString);
-		}
-	}
 }
