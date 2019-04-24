@@ -39,7 +39,7 @@ public class LambdaDemo {
 
 			}
 		});
-		
+
 		// 案例2
 		// lambda表达式
 		ArrayList<String> list = new ArrayList<>();
@@ -89,7 +89,7 @@ public class LambdaDemo {
 
 	}
 
-	//Lambda表达式只支持函数式接口  也就是只有一个抽象方法的接口
+	// Lambda表达式只支持函数式接口 也就是只有一个抽象方法的接口
 	public String testLamber() {
 		Displayable dis = () -> {
 			// 访问"effectively final"局部变量
