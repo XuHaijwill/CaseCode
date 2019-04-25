@@ -19,8 +19,8 @@ public class ConnectionUtils {
 
 		ConnectionFactory factory = new ConnectionFactory();
 
-		//factory.setHost("127.0.0.1");
-		factory.setHost("192.168.25.129");	
+		factory.setHost("127.0.0.1");
+		//factory.setHost("192.168.25.129");	
 		factory.setPort(5672);
 		factory.setVirtualHost("/vhost_mmr");
 		factory.setUsername("xuhj");
