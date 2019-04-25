@@ -1,0 +1,19 @@
+package com.xhjc.javabase.lambda.impl;
+
+import com.xhjc.javabase.lambda.intf.Programer;
+
+public class MyProgrammer implements Programer{
+
+	@Override
+	public void listLangurages(String a) {
+		 System.out.println("Objective-C Swift Python Go Java");
+		
+	}
+
+	@Override
+	public void introduceMyself() {
+		  System.out.println("My Name is Jiaming Chen");
+		
+	}
+
+}

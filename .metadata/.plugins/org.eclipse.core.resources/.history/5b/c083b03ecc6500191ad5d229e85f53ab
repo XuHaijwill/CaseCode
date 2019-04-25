@@ -1,0 +1,10 @@
+package com.xhjc.javabase.lambda;
+
+import com.xhjc.javabase.lambda.intf.Programer;
+
+public class HelloWord {
+	static void info(Programer programer) {
+		programer.listLangurages();
+		programer.introduceMyself();
+	}
+}

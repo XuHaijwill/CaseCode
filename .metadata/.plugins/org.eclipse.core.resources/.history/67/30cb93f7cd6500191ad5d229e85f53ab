@@ -1,0 +1,44 @@
+package com.xhjc.javabase.lambda;
+
+import com.xhjc.javabase.lambda.impl.MyProgrammer;
+import com.xhjc.javabase.lambda.intf.Programer;
+
+public class HelloWord {
+	
+	static void info(Programer programer) {
+		programer.listLangurages();
+		programer.introduceMyself();
+	}
+	
+	public static void main(String[] args) {
+		
+		//普通写法
+		info(new MyProgrammer());
+		
+		//匿名内部类
+		info(new Programer() {
+			
+			@Override
+			public void listLangurages() {
+				System.out.println("匿名内部类----->listLangurages");
+				
+			}
+			
+			@Override
+			public void introduceMyself() {
+				System.out.println("匿名内部类----->introduceMyself");
+				
+			}
+		});
+		
+		//lambda表达式
+		ArrayList<String> list = new ArrayList<>();
+        list.add("Objective-C");
+        list.add("Swift");
+        list.add("Python");
+        list.add("Golang");
+        list.add("Java");
+        list.sort(new MyComparator());
+        list.forEach(System.out::println);
+	}
+}

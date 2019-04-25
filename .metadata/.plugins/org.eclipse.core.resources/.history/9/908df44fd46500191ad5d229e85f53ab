@@ -1,0 +1,5 @@
+package com.xhjc.javabase.lambda.intf;
+
+public interface Displayable {
+
+}

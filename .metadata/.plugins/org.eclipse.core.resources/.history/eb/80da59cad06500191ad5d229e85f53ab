@@ -1,0 +1,26 @@
+package com.xhjc.javabase.lambda.demo;
+
+public class HelloWorld {
+
+	public static void info(Programer programer) {
+		programer.listLanguages();
+		programer.introduceMyself();
+	}
+	
+	public static void main(String[] args) {
+		int age = 22;
+		Programer p = new Programer("Jiaming Chen"){
+            public void listLanguages()
+            {
+                System.out.println("Objective-C Swift Python Go Java");
+            }
+            public void introduceMyself()
+            {
+                System.out.println("My Name is " + this.name + " and I'm " + age + " years old.");
+                //age = 2;
+            }
+        };
+        info(p);
+
+	}
+}

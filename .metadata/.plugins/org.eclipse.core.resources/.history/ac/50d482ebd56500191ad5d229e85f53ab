@@ -1,0 +1,15 @@
+package com.xhjc.javabase.lambda.impl;
+
+import com.xhjc.javabase.lambda.intf.Programer;
+
+public class MyProgrammer implements Programer{
+
+	@Override
+	public void programer() {
+		System.out.println("测试");
+		
+	}
+
+	
+
+}

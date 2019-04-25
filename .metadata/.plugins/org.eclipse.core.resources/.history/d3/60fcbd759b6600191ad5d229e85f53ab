@@ -1,0 +1,11 @@
+package com.xhjc.demo01;
+
+import org.junit.Test;
+
+public class MyBatisTest {
+
+	@Test
+	public void testGetEmpbyId() {
+		
+	}
+}
