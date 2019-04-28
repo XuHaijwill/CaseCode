@@ -8,6 +8,12 @@
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
 		<config>src/main/resources/ioc/helloword/hello.xml</config>
+		<config>src/main/resources/ioc/connection/connection.xml</config>
+		<config>src/main/resources/ioc/autowire/autowire.xml</config>
+		<config>src/main/resources/ioc/cycle/cycle.xml</config>
+		<config>src/main/resources/ioc/scop/scop.xml</config>
+		<config>src/main/resources/ioc/di/di.xml</config>
+		<config>src/main/resources/ioc/spel/spel.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
