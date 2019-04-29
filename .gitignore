@@ -1,11 +1,19 @@
 /.metadata/
+/.RemoteSystemsTempFiles/
+/..recommenders/
 
-/ssm-rest/.settings
-/ssm-rest/target
-/ssm-rest/images
-/ssm-rest/WebContent
+/ssm-rest/.settings/
+/ssm-rest/target/
+/ssm-rest/images/
+/ssm-rest/WebContent/
 /ssm-rest/.classpath
 /ssm-rest/.project
-/ssm-rest/.springBeans
+
+/java-demo/.settings/
+/java-demo/target/
+/java-demo/WebContent/
+/java-demo/.classpath
+/java-demo/.project
+
 
 
