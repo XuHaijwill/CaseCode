@@ -1,0 +1,7 @@
+package com.xhjc.javabase.lambda.intf;
+
+public interface Programer {
+	void listLangurages(String a);
+	void introduceMyself();
+	public  void display();
+}

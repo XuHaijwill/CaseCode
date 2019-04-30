@@ -1,0 +1,7 @@
+package com.xhjc.demo01.dao;
+
+import com.xhjc.demo01.bean.Employee;
+
+public class EmployeeMapper {
+	public Employee getEmpById(Integer id);
+}

@@ -1,0 +1,5 @@
+package com.xhjc.javabase.intf;
+
+public interface Programer {
+
+}

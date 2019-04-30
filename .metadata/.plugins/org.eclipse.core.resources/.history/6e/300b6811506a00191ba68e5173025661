@@ -1,0 +1,19 @@
+package com.xhjc.aop.proxy;
+
+import org.junit.Test;
+
+import com.xhjc.aop.prox.ArithmeticCalculator;
+import com.xhjc.aop.prox.ArithmeticCalculatorImpl;
+import com.xhjc.aop.prox.ArithmeticCalculatorLoggingProxy;
+
+public class AppTest {
+
+	@Test
+	public void test(){
+		ArithmeticCalculator arithmeticCalculator = new ArithmeticCalculatorImpl();
+		
+		arithmeticCalculator = new ArithmeticCalculatorLoggingProxy(arithmeticCalculator).getLoggingProxy();
+		
+		
+	}
+}

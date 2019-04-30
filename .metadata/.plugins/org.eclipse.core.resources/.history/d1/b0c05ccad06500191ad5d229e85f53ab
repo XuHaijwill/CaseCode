@@ -1,0 +1,15 @@
+package com.xhjc.javabase.lambda.demo;
+
+abstract class Programer {
+	protected String name;
+
+	public Programer(String name)
+	    {
+	        this.name = name;
+	    }
+
+	public abstract void listLanguages();
+
+	public abstract void introduceMyself();
+
+}
