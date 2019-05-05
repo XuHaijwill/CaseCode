@@ -1,5 +1,5 @@
 # RabbitMQ使用指南
-
+java 案例代码
 官网  https://www.rabbitmq.com/getstarted.html、https://www.rabbitmq.com/java-client.html
 ## 基本操作命令
 查询所有用户 
