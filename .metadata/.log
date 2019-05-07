@@ -8138,3 +8138,9 @@ org.eclipse.core.runtime.CoreException: Launch configuration Send references clo
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-07 15:34:33.495
 !MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-07 15:40:11.058
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-07 15:40:11.059
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
