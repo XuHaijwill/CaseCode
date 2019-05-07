@@ -1,0 +1,32 @@
+package com.xhjc.aop.annotation;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
+
+@Aspect
+@Component
+public class LoggingAspect {
+	
+	/**
+	 * 定义一个方法, 用于声明切入点表达式. 一般地, 该方法中再不需要添入其他的代码. 
+	 * 使用 @Pointcut 来声明切入点表达式. 
+	 * 后面的其他通知直接使用方法名来引用当前的切入点表达式. 
+	 */
+	@Pointcut("execution(public int com.xhjc.aop.annotation.ArithmeticCalculator.*(..))")
+	public void declareJointPointExpression(){
+		
+	}
+	
+	@Before("declareJointPointExpression()")
+	public void beforeMethod(JoinPoint joinPoint){
+		String methodName = joinPoint.getSignature().getName();
+		
+		Object[] arges = joinPoint.getArgs();
+		
+		System.out.println("The method " + methodName + " begins with " + Arrays.asList(args));
+	}
+
+}

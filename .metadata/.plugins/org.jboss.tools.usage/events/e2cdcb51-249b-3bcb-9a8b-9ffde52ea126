@@ -1,11 +1,11 @@
-#Mon Apr 29 15:28:48 CST 2019
+#Tue May 07 13:47:30 CST 2019
 vl=How many times the 'Finish' button pressed during the day
 l=Wizard class name
 ct=jbt
-d=1556522928574
+d=1557208050437
 c=0
 cmp=usage
 a=finishWizard
 cl=org.eclipse.ui.wizards.newresource.BasicNewFolderResourceWizard
 v=2.2.4
-s=4
+s=0

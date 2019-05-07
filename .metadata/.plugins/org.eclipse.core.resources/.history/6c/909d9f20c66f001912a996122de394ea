@@ -1,0 +1,10 @@
+package com.xhjc.aop.annotation;
+
+
+public class AppTest {
+	
+	@Test
+	public void test(){
+		
+	}
+}
