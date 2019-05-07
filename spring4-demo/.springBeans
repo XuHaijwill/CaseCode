@@ -16,6 +16,8 @@
 		<config>src/main/resources/ioc/spel/spel.xml</config>
 		<config>src/main/resources/aop/annotation/spring-aop-annotation.xml</config>
 		<config>src/main/resources/aop/xml/applicationContext-xml.xml</config>
+		<config>src/main/resources/jdbc/applicationContext.xml</config>
+		<config>src/main/resources/jdbc/applicationContext-tx.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
