@@ -1,0 +1,9 @@
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://66.42.68.168:3306/mybatis
+jdbc.username=root
+jdbc.password=11111
+
+orcl.driver=oracle.jdbc.OracleDriver
+orcl.url=jdbc:oracle:thin:@66.42.68.168:1521:orcl
+orcl.username=scott
+orcl.password=11111

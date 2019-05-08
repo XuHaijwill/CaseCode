@@ -1,9 +1,0 @@
-package com.xhjc.ioc.helloworld;
-
-public class AppTest {
-
-	@Test
-	public void testHello1() {
-		
-	}
-}

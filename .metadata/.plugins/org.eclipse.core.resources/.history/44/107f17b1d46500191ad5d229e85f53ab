@@ -1,9 +1,0 @@
-package com.xhjc.javabase.lambda.intf;
-
-public interface Programer {
-	
-	public void programer();
-
-	public int introduceMyself(int a,int b);
-	
-}

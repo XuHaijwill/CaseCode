@@ -1,5 +1,8 @@
 package com.xhjc.demo01.bean;
 
+import org.apache.ibatis.type.Alias;
+
+@Alias("emp")
 public class Employee {
 
 	private Integer id;

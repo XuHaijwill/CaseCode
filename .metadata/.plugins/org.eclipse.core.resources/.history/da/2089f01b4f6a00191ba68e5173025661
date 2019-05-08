@@ -1,5 +1,0 @@
-package com.xhjc.aop.prox;
-
-public class ArithmeticCalculatorLoggingProxy {
-
-}

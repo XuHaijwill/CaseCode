@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest (2)" project="spring4-demo" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.xhjc.aop.annotation.AppTest" time="0.835">
-    <testcase name="test" classname="com.xhjc.aop.annotation.AppTest" time="0.835"/>
-  </testsuite>
-</testrun>
