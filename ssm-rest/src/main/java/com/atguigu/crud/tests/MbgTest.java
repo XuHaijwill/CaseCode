@@ -10,6 +10,7 @@ import org.mybatis.generator.config.Configuration;
 import org.mybatis.generator.config.xml.ConfigurationParser;
 import org.mybatis.generator.internal.DefaultShellCallback;
 
+//逆向工程
 public class MbgTest {
 	
 	public static void main(String[] args) throws Exception{
