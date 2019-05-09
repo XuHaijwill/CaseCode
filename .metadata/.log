@@ -6892,3 +6892,9 @@ java.io.FileNotFoundException: /icons/full/eview16/searchres.png
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-09 16:08:48.386
 !MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-09 17:36:31.257
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-09 17:36:31.259
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
