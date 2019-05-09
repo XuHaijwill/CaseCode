@@ -1,0 +1,5 @@
+package com.xhjc.demo02.bean;
+
+public class Employee {
+
+}

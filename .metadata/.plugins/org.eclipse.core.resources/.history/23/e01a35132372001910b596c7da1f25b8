@@ -1,0 +1,54 @@
+package com.xhjc.demo01.demo_mapper;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Map;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.junit.Test;
+
+import com.xhjc.demo_mapper.bean.Employee;
+import com.xhjc.demo_mapper.dao.EmployeeMapper;
+
+public class AppTest {
+
+	public SqlSessionFactory getSqlSessionFactory() throws IOException {
+		String resource = "mapper/demo_mapper/EmployeeMapper.xml";
+		InputStream inputStream = Resources.getResourceAsStream(resource);
+		return new SqlSessionFactoryBuilder().build(inputStream);
+	}
+
+	@Test
+	public void testAdd() throws IOException {
+		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+		SqlSession openSession = sqlSessionFactory.openSession();
+
+		try {
+			EmployeeMapper mapper = openSession.getMapper(EmployeeMapper.class);
+			// 测试添加
+			Employee employee = new Employee(null, "jerry4", null, "1");
+			mapper.addEmp(employee);
+			System.out.println(employee.getId());
+
+			openSession.commit();
+		} catch (Exception e) {
+
+		}
+
+	}
+
+	@Test
+	public void testMapper() throws IOException {
+		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+		// 1、获取到的SqlSession不会自动提交数据
+		SqlSession openSession = sqlSessionFactory.openSession();
+		EmployeeMapper mapper = openSession.getMapper(EmployeeMapper.class);
+
+		Map<String, Employee> map = mapper.getEmpByLastNameLikeReturnMap("%r%");
+		System.out.println(map);
+	}
+
+}

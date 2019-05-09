@@ -1,0 +1,21 @@
+package com.xhjc.demo01.demo_mapper;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+public class AppTest {
+	
+	public SqlSessionFactory getSqlSessionFactory() throws IOException {
+		String resource = "mapper/demo_mapper/EmployeeMapper.xml";
+		InputStream inputStream = Resources.getResourceAsStream(resource);
+		return new SqlSessionFactoryBuilder().build(inputStream);
+	}
+	
+	
+	
+	
+}

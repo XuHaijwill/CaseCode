@@ -1,0 +1,7 @@
+1557370681720	Move compilation unit
+1557370984326	Rename resource 'demo02'
+1557383266198	Copy file
+1557385404871	Move 'EmployeeMapper.xml' to 'dao'
+1557385407286	Move 'mybatis-config.xml' to 'dao'
+1557385413115	Delete element
+1557387551534	Move 'demo_mapper' to 'xhjc'
