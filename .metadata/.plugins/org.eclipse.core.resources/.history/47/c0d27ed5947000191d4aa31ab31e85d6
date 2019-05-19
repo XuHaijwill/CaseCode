@@ -1,5 +1,0 @@
-package com.xhjc.spring.jdbc;
-
-public class DepartmentDao {
-
-}

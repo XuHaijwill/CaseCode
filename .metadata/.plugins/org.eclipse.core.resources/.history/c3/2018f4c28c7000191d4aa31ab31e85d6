@@ -1,7 +1,0 @@
-jdbc.user=root
-jdbc.password=11111
-jdbc.driverClass=com.mysql.jdbc.Driver
-jdbc.jdbcUrl=jdbc:mysql://192.168.25.129:3306/mybatis_demo
-
-jdbc.initPoolSize=5
-jdbc.maxPoolSize=10
