@@ -1,0 +1,5 @@
+package com.xhjc.springmvc.handlers;
+
+public class HelloWorld {
+
+}
