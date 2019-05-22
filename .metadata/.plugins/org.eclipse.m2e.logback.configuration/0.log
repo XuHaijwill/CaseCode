@@ -6958,3 +6958,352 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2019-05-21 07:39:26,354 [Worker-32: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\workspaces\git_resources\CaseCode\springmvc-demo
 2019-05-21 07:39:26,355 [Worker-32: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\.m2\配置文件\mine\settings.xml tomcat7:run
 2019-05-21 07:39:26,355 [Worker-32: Launching springmvc-demo] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2019-05-21 09:14:26,014 [Worker-8: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-05-21 09:14:36,128 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:java-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\java-demo\pom.xml.
+2019-05-21 09:14:37,002 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:mybatis3-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\mybatis3-demo\pom.xml.
+2019-05-21 09:14:37,147 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:spring4-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\spring4-demo\pom.xml.
+2019-05-21 09:14:37,413 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:springmvc-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\springmvc-demo\pom.xml.
+2019-05-21 09:14:37,612 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:ssm-crud:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\ssm-rest\pom.xml.
+2019-05-21 09:15:10,781 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:15:10,785 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 09:15:10,793 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:15:10,796 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 09:15:11,148 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:15:11,167 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 09:15:11,168 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2019-05-21 09:15:11,206 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:15:11,207 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\mybatis3-demo\src\test\resources
+2019-05-21 09:15:16,722 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:15:16,728 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-05-21 09:15:16,791 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:15:16,795 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\spring4-demo\src\test\resources
+2019-05-21 09:15:17,009 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:15:17,011 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-05-21 09:15:17,044 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:15:17,046 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 09:15:18,821 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:15:18,842 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-05-21 09:15:18,870 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:15:18,871 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\ssm-rest\src\test\resources
+2019-05-21 09:17:07,766 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-05-21 09:17:10,259 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/repositories/central/org/apache/tomcat/maven/tomcat7-maven-plugin/maven-metadata.xml
+2019-05-21 09:17:10,724 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/repositories/central/org/apache/tomcat/maven/tomcat7-maven-plugin/maven-metadata.xml
+2019-05-21 09:17:11,177 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:java-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\java-demo\pom.xml.
+2019-05-21 09:17:11,331 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:mybatis3-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\mybatis3-demo\pom.xml.
+2019-05-21 09:17:11,378 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:spring4-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\spring4-demo\pom.xml.
+2019-05-21 09:17:11,429 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:springmvc-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\springmvc-demo\pom.xml.
+2019-05-21 09:17:11,485 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:ssm-crud:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\ssm-rest\pom.xml.
+2019-05-21 09:17:13,353 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java-demo/src/main/java
+2019-05-21 09:17:13,354 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java-demo/src/test/java
+2019-05-21 09:17:14,095 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mybatis3-demo/src/main/java
+2019-05-21 09:17:14,096 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /mybatis3-demo/src/main/java overlaps with sources folder /mybatis3-demo/src/main/java
+2019-05-21 09:17:14,096 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mybatis3-demo/src/main/resources
+2019-05-21 09:17:14,097 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mybatis3-demo/src/test/java
+2019-05-21 09:17:15,622 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring4-demo/src/main/java
+2019-05-21 09:17:15,623 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring4-demo/src/main/resources
+2019-05-21 09:17:15,623 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring4-demo/src/test/java
+2019-05-21 09:17:16,595 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springmvc-demo/src/main/java
+2019-05-21 09:17:16,595 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springmvc-demo/src/main/resources
+2019-05-21 09:17:16,596 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springmvc-demo/src/test/java
+2019-05-21 09:17:16,751 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ssm-rest/src/main/java
+2019-05-21 09:17:16,752 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ssm-rest/src/main/resources
+2019-05-21 09:17:16,753 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ssm-rest/src/test/java
+2019-05-21 09:17:17,585 [Worker-19: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for java-demo
+2019-05-21 09:17:17,637 [Worker-19: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for mybatis3-demo
+2019-05-21 09:17:17,798 [Worker-19: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring4-demo
+2019-05-21 09:17:17,849 [Worker-19: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for springmvc-demo
+2019-05-21 09:17:17,928 [Worker-19: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ssm-rest
+2019-05-21 09:17:17,945 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2019-05-21 09:17:18,567 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:18,568 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 09:17:18,570 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:18,571 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 09:17:18,571 [Worker-19: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of java-demo
+2019-05-21 09:17:18,572 [Worker-19: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for java-demo
+2019-05-21 09:17:18,577 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:18,751 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:18,769 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 09:17:18,770 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2019-05-21 09:17:18,806 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:18,807 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\mybatis3-demo\src\test\resources
+2019-05-21 09:17:18,807 [Worker-19: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mybatis3-demo
+2019-05-21 09:17:18,807 [Worker-19: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mybatis3-demo
+2019-05-21 09:17:18,812 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:21,797 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:21,799 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-05-21 09:17:21,885 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:21,891 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\spring4-demo\src\test\resources
+2019-05-21 09:17:21,891 [Worker-19: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring4-demo
+2019-05-21 09:17:21,891 [Worker-19: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring4-demo
+2019-05-21 09:17:21,912 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:22,247 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:22,249 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-05-21 09:17:22,259 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:22,260 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 09:17:22,260 [Worker-19: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springmvc-demo
+2019-05-21 09:17:22,260 [Worker-19: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springmvc-demo
+2019-05-21 09:17:22,264 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:27,876 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:27,878 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-05-21 09:17:27,891 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:17:27,892 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\ssm-rest\src\test\resources
+2019-05-21 09:17:27,893 [Worker-19: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ssm-rest
+2019-05-21 09:17:27,893 [Worker-19: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ssm-rest
+2019-05-21 09:17:27,897 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:19:09,716 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:19:09,738 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-05-21 09:19:09,745 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:19:09,746 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 09:19:28,203 [Worker-26: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\workspaces\git_resources\CaseCode\springmvc-demo
+2019-05-21 09:19:28,204 [Worker-26: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\.m2\配置文件\mine\settings.xml tomcat7:run
+2019-05-21 09:19:28,205 [Worker-26: Launching springmvc-demo] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2019-05-21 09:21:12,623 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:21:12,625 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 09:21:12,627 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:21:12,628 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 09:21:16,238 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:21:16,240 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-21 09:21:16,244 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:21:16,245 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 09:21:17,291 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:21:17,292 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 09:21:17,293 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:21:17,294 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 09:22:39,998 [Worker-32: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\workspaces\git_resources\CaseCode\springmvc-demo
+2019-05-21 09:22:39,998 [Worker-32: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\.m2\配置文件\mine\settings.xml tomcat7:run
+2019-05-21 09:22:39,998 [Worker-32: Launching springmvc-demo] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2019-05-21 09:26:19,546 [Worker-39: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\workspaces\git_resources\CaseCode\springmvc-demo
+2019-05-21 09:26:19,546 [Worker-39: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\.m2\配置文件\mine\settings.xml tomcat7:run
+2019-05-21 09:26:19,546 [Worker-39: Launching springmvc-demo] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2019-05-21 09:46:40,780 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-05-21 09:46:44,811 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:46:44,815 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 09:46:44,818 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:46:44,820 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 09:48:16,423 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:48:16,424 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 09:48:16,428 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:48:16,429 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 09:48:17,071 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:48:17,088 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 09:48:17,090 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2019-05-21 09:48:17,200 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:48:17,201 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\mybatis3-demo\src\test\resources
+2019-05-21 09:48:18,977 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:48:18,979 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-05-21 09:48:19,028 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:48:19,029 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\spring4-demo\src\test\resources
+2019-05-21 09:48:19,368 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:48:19,369 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 09:48:19,376 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:48:19,377 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 09:48:20,315 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:48:20,317 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-05-21 09:48:20,395 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:48:20,396 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\ssm-rest\src\test\resources
+2019-05-21 09:48:23,755 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:48:23,759 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 09:48:23,762 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:48:23,764 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 09:49:18,940 [Worker-18: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/repositories/central/org/zeroturnaround/jrebel-maven-plugin/1.1.8/jrebel-maven-plugin-1.1.8.jar
+2019-05-21 09:49:19,230 [Worker-18: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/repositories/central/org/zeroturnaround/jrebel-maven-plugin/1.1.8/jrebel-maven-plugin-1.1.8.jar
+2019-05-21 09:49:19,951 [Worker-18: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:springmvc-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\springmvc-demo\pom.xml.
+2019-05-21 09:49:20,675 [Worker-18: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/repositories/central/org/zeroturnaround/jrebel-maven-plugin/1.1.8/jrebel-maven-plugin-1.1.8.pom
+2019-05-21 09:49:20,828 [Worker-18: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/repositories/central/org/zeroturnaround/jrebel-maven-plugin/1.1.8/jrebel-maven-plugin-1.1.8.pom
+2019-05-21 09:49:20,973 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:49:20,975 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 09:49:20,978 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:49:20,980 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 09:49:20,980 [Worker-18: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springmvc-demo
+2019-05-21 09:49:20,981 [Worker-18: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springmvc-demo
+2019-05-21 09:49:21,042 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:49:29,525 [Worker-4: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:springmvc-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\springmvc-demo\pom.xml.
+2019-05-21 09:49:29,634 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:49:29,635 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 09:49:29,637 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:49:29,638 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 09:49:29,638 [Worker-4: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springmvc-demo
+2019-05-21 09:49:29,638 [Worker-4: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springmvc-demo
+2019-05-21 09:49:29,643 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:49:50,722 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-05-21 09:49:51,227 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:springmvc-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\springmvc-demo\pom.xml.
+2019-05-21 09:49:51,448 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springmvc-demo/src/main/java
+2019-05-21 09:49:51,449 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springmvc-demo/src/main/resources
+2019-05-21 09:49:51,449 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springmvc-demo/src/test/java
+2019-05-21 09:49:51,809 [Worker-12: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for springmvc-demo
+2019-05-21 09:49:51,824 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2019-05-21 09:49:52,914 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:49:52,915 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 09:49:54,882 [Worker-0: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/repositories/central/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.jar
+2019-05-21 09:49:55,571 [Worker-0: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/repositories/central/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.jar
+2019-05-21 09:49:55,888 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:49:55,889 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 09:49:55,889 [Worker-0: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springmvc-demo
+2019-05-21 09:49:55,890 [Worker-0: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springmvc-demo
+2019-05-21 09:49:55,905 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:50:53,502 [Worker-7: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\workspaces\git_resources\CaseCode\springmvc-demo
+2019-05-21 09:50:53,504 [Worker-7: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\.m2\配置文件\mine\settings.xml tomcat7:run
+2019-05-21 09:50:53,505 [Worker-7: Launching springmvc-demo] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2019-05-21 09:53:43,791 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:53:43,793 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 09:53:43,796 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:53:43,797 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 09:57:50,668 [Worker-9: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-05-21 09:57:53,962 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:57:53,964 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 09:57:53,966 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 09:57:53,967 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 10:07:19,662 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:19,678 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 10:07:19,678 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:19,678 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 10:07:20,051 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:20,067 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 10:07:20,067 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2019-05-21 10:07:20,114 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:20,114 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\mybatis3-demo\src\test\resources
+2019-05-21 10:07:22,254 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:22,254 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2019-05-21 10:07:22,853 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:22,853 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\spring4-demo\src\test\resources
+2019-05-21 10:07:23,312 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:23,312 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 10:07:23,312 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:23,312 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:07:24,290 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:24,290 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-05-21 10:07:24,337 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:24,337 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\ssm-rest\src\test\resources
+2019-05-21 10:07:26,819 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:26,823 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 10:07:26,825 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:26,827 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:07:28,021 [Worker-42: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:28,023 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 10:07:28,027 [Worker-42: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:07:28,028 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:31:18,565 [Worker-54: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\workspaces\git_resources\CaseCode\springmvc-demo
+2019-05-21 10:31:18,567 [Worker-54: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\.m2\配置文件\mine\settings.xml tomcat7:run
+2019-05-21 10:31:18,569 [Worker-54: Launching springmvc-demo] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2019-05-21 10:31:52,825 [Worker-53: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:springmvc-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\springmvc-demo\pom.xml.
+2019-05-21 10:31:53,191 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:31:53,192 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 10:31:53,193 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:31:53,194 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:31:53,195 [Worker-53: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springmvc-demo
+2019-05-21 10:31:53,196 [Worker-53: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springmvc-demo
+2019-05-21 10:31:53,226 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:31:58,457 [Worker-56: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\workspaces\git_resources\CaseCode\springmvc-demo
+2019-05-21 10:31:58,457 [Worker-56: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\.m2\配置文件\mine\settings.xml tomcat7:run
+2019-05-21 10:31:58,457 [Worker-56: Launching springmvc-demo] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2019-05-21 10:38:28,345 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:38:28,348 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 10:38:28,350 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:38:28,352 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:39:23,342 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:39:23,345 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 10:39:23,347 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:39:23,349 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:39:51,340 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:39:51,343 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 10:39:51,346 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:39:51,348 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:41:05,843 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:41:05,846 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 10:41:05,848 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:41:05,850 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:44:43,296 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:44:43,298 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 10:44:43,299 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:44:43,301 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:47:03,027 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:47:03,029 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 10:47:03,031 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:47:03,032 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:50:00,246 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:50:00,250 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 10:50:00,253 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:50:00,254 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 10:50:12,317 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:50:12,319 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 10:50:12,320 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:50:12,322 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 10:50:48,351 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:50:48,353 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 10:50:48,353 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:50:48,355 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 10:51:22,129 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:51:22,131 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 10:51:22,132 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:51:22,134 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 10:52:05,160 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:52:05,165 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 10:52:05,167 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:52:05,170 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 10:52:17,274 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:52:17,275 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 10:52:17,276 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:52:17,277 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 10:53:29,773 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:53:29,775 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 10:53:29,779 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:53:29,780 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:53:44,150 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:53:44,152 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 10:53:44,154 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:53:44,156 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:54:36,315 [Worker-57: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xhjc:springmvc-demo:0.0.1-SNAPSHOT @ D:\workspaces\git_resources\CaseCode\springmvc-demo\pom.xml.
+2019-05-21 10:54:37,023 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:54:37,025 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 10:54:37,028 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:54:37,029 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:54:37,030 [Worker-57: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springmvc-demo
+2019-05-21 10:54:37,030 [Worker-57: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springmvc-demo
+2019-05-21 10:54:37,034 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:54:38,792 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:54:38,795 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 10:54:38,805 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:54:38,806 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 10:54:58,226 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:54:58,228 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-05-21 10:54:58,230 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:54:58,232 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-05-21 10:57:09,891 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:57:09,893 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 10:57:09,899 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 10:57:09,901 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 11:02:48,562 [Worker-71: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:02:48,565 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 11:02:48,567 [Worker-71: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:02:48,568 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 11:04:46,738 [Worker-70: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:04:46,740 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 11:04:46,741 [Worker-70: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:04:46,743 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 11:04:57,186 [Worker-68: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:04:57,188 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 11:04:57,190 [Worker-68: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:04:57,191 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 11:05:12,734 [Worker-70: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:05:12,736 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 11:05:12,738 [Worker-70: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:05:12,740 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 11:05:27,252 [Worker-68: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:05:27,253 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 11:05:27,255 [Worker-68: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:05:27,256 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 11:05:30,028 [Worker-72: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:05:30,030 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 11:05:30,031 [Worker-72: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:05:30,033 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 11:05:39,562 [Worker-67: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\workspaces\git_resources\CaseCode\springmvc-demo
+2019-05-21 11:05:39,562 [Worker-67: Launching springmvc-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\.m2\配置文件\mine\settings.xml tomcat7:run
+2019-05-21 11:05:39,562 [Worker-67: Launching springmvc-demo] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2019-05-21 11:10:41,289 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:10:41,291 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 11:10:41,293 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:10:41,295 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources
+2019-05-21 11:12:42,312 [Worker-74: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:12:42,314 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-05-21 11:12:42,317 [Worker-74: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-21 11:12:42,320 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\springmvc-demo\src\test\resources

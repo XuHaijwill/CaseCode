@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [21/May/2019:09:53:32 +0800] "GET / HTTP/1.1" 200 783 http-bio-8082-exec-2 619
+0:0:0:0:0:0:0:1 - - [21/May/2019:09:53:33 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8082-exec-3 86
+0:0:0:0:0:0:0:1 - - [21/May/2019:09:53:49 +0800] "GET /springmvc/testModelAndView HTTP/1.1" 200 272 http-bio-8082-exec-4 14795
+0:0:0:0:0:0:0:1 - - [21/May/2019:10:39:04 +0800] "GET / HTTP/1.1" 200 783 http-bio-8082-exec-1 1860
+0:0:0:0:0:0:0:1 - - [21/May/2019:10:39:05 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8082-exec-3 824
+0:0:0:0:0:0:0:1 - - [21/May/2019:10:39:07 +0800] "GET /springmvc/testPathVariable/1 HTTP/1.1" 200 272 http-bio-8082-exec-4 406
+0:0:0:0:0:0:0:1 - - [21/May/2019:10:39:25 +0800] "GET / HTTP/1.1" 200 783 http-bio-8082-exec-5 129
+0:0:0:0:0:0:0:1 - - [21/May/2019:10:39:28 +0800] "GET /springmvc/testPathVariable/1 HTTP/1.1" 500 5712 http-bio-8082-exec-7 542
+0:0:0:0:0:0:0:1 - - [21/May/2019:10:40:04 +0800] "GET / HTTP/1.1" 200 783 http-bio-8082-exec-8 95
+0:0:0:0:0:0:0:1 - - [21/May/2019:11:09:00 +0800] "GET / HTTP/1.1" 200 783 http-bio-8082-exec-1 378
+0:0:0:0:0:0:0:1 - - [21/May/2019:11:09:01 +0800] "GET /springmvc/testModelAndView HTTP/1.1" 200 272 http-bio-8082-exec-3 153
+0:0:0:0:0:0:0:1 - - [21/May/2019:11:09:59 +0800] "GET /springmvc/testModelAndView HTTP/1.1" 200 272 http-bio-8082-exec-4 13
