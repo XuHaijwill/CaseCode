@@ -3,7 +3,7 @@
 	xmlns="http://java.sun.com/xml/ns/javaee"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	id="WebApp_ID" version="3.0">
-	<context-param>
+	<!-- <context-param>
 		<param-name>urlrewrite</param-name>
 		<param-value>false</param-value>
 	</context-param>
@@ -23,19 +23,31 @@
 		<listener-class>com.xhjc.listener.SysListener</listener-class>
 	</listener>
 
-	<!--配置过滤器 -->
+	配置过滤器
 	<filter>
 		<filter-name>filter01</filter-name>
 		<filter-class>com.xhjc.springmvc.filter.FilterDemo01</filter-class>
 	</filter>
 
-	<!--映射过滤器 -->
+	映射过滤器
 	<filter-mapping>
 		<filter-name>filter01</filter-name>
-		<!--/*表示拦截所有的请求 -->
+		/*表示拦截所有的请求
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
-
+ -->
+ 
+    <!-- 监听器 -->
+	<!-- <servlet>
+		<servlet-name>MainServlet</servlet-name>
+		<servlet-class>com.xhjc.listener.MainTestServlet</servlet-class>
+		<init-param>
+			<param-name>param1</param-name>
+			<param-value>avalible in servlet init()</param-value>
+		</init-param>
+		<load-on-startup>0</load-on-startup>
+	</servlet> -->
+	
 	<!-- 配置 org.springframework.web.filter.HiddenHttpMethodFilter: 可以把 POST 
 		请求转为 DELETE 或 POST 请求 -->
 	<filter>
@@ -64,14 +76,5 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
-	<servlet>
-		<servlet-name>MainServlet</servlet-name>
-		<servlet-class>com.xhjc.listener.MainTestServlet</servlet-class>
-		<init-param>
-			<param-name>param1</param-name>
-			<param-value>avalible in servlet init()</param-value>
-		</init-param>
-		<load-on-startup>0</load-on-startup>
-	</servlet>
 
 </web-app>
