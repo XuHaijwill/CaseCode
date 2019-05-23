@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="ServerDemo"/>
+<aop-project name="SsoClientDemo"/>
+<aop-project name="ClientDemo"/>
+</aop-reference-model>

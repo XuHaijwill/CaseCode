@@ -38,4 +38,21 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
 <fullyQualifiedTypeName name="javax.servlet.Filter"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+<fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+<fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+<fullyQualifiedTypeName name="com.xhjc.annotation.FruitName"/>
+<fullyQualifiedTypeName name="com.xhjc.annotation.FruitColor"/>
+<fullyQualifiedTypeName name="com.xhjc.annotation.FruitColor.Color"/>
+<fullyQualifiedTypeName name="com.xhjc.annotation.FruitProvider"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+<fullyQualifiedTypeName name="com.xhjc.annotation.Apple"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Documented"/>
+<fullyQualifiedTypeName name="com.xhjc.annotation.table.Table"/>
+<fullyQualifiedTypeName name="com.xhjc.annotation.fruit.FruitColor"/>
+<fullyQualifiedTypeName name="com.xhjc.annotation.table.Person"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="com.xhjc.annotation.table.Column"/>
 </qualifiedTypeNameHistroy>

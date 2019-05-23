@@ -6188,3 +6188,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.web.accept.Cont
 
 !ENTRY org.eclipse.jdt.core 4 0 2019-05-23 17:03:45.361
 !MESSAGE Invalid ZIP archive: D:\.m2\repositoryMine\org\springframework\security\spring-security-web\3.2.10.RELEASE\spring-security-web-3.2.10.RELEASE.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-23 17:12:04.189
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-23 17:12:04.191
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!

@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:11:55 +0800] "GET / HTTP/1.1" 200 3050 http-bio-8082-exec-1 2684
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:11:56 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8082-exec-3 558
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:13:31 +0800] "GET /springmvc/testRedirect HTTP/1.1" 302 - http-bio-8082-exec-4 93829
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:13:31 +0800] "GET /index.jsp HTTP/1.1" 200 3050 http-bio-8082-exec-5 6
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:13:45 +0800] "GET /index.jsp HTTP/1.1" 200 3050 http-bio-8082-exec-6 9
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:14:17 +0800] "GET /springmvc/testRedirect HTTP/1.1" 302 - http-bio-8082-exec-8 29895
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:14:17 +0800] "GET /index.jsp HTTP/1.1" 200 3050 http-bio-8082-exec-9 6
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:15:12 +0800] "GET /springmvc/testModelAndView HTTP/1.1" 200 434 http-bio-8082-exec-10 227
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:15:14 +0800] "GET /index.jsp HTTP/1.1" 200 3050 http-bio-8082-exec-10 4
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:15:17 +0800] "GET /springmvc/testViewAndViewResolver HTTP/1.1" 200 434 http-bio-8082-exec-10 12
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:15:29 +0800] "GET /springmvc/testModelAndView HTTP/1.1" 200 434 http-bio-8082-exec-10 11
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:15:58 +0800] "GET /index.jsp HTTP/1.1" 200 3050 http-bio-8082-exec-5 6
+0:0:0:0:0:0:0:1 - - [23/May/2019:10:19:15 +0800] "POST /springmvc/testModelAttribute HTTP/1.1" 200 580 http-bio-8082-exec-7 145312
