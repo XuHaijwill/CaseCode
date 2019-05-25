@@ -108,10 +108,10 @@
 						比较重要的，复杂的Dao接口我们来写sql映射文件
 						不重要，简单的Dao接口为了开发快速可以使用注解；
 		-->
-		<mapper resource="mapper/demo01/EmployeeMapper.xml" />
+		<!-- <mapper resource="mapper/demo01/EmployeeMapper.xml" /> -->
 		<!-- <mapper class="com.xhjc.demo01.dao.EmployeeMapperAnnotation"/> -->
 		
 		<!-- 批量注册： -->
-		<!-- <package name="com.xhjc.demo_mapper.dao"/> -->
+		<package name="com.xhjc"/>
 	</mappers>
 </configuration>

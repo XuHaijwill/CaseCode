@@ -16,6 +16,7 @@ import com.xhjc.demo_mapper.bean.Department;
 import com.xhjc.demo_mapper.bean.Employee;
 import com.xhjc.demo_mapper.dao.DepartmentMapper;
 import com.xhjc.demo_mapper.dao.EmployeeMapper;
+import com.xhjc.demo_mapper.dao.EmployeeMapperPlus;
 
 public class AppTest {
 
@@ -73,7 +74,9 @@ public class AppTest {
 
 		try {
 			EmployeeMapper mapper = openSession.getMapper(EmployeeMapper.class);
-			// Employee employee = mapper.getEmpByIdAndLastName(1, "tom");
+			//源码分析
+			Employee employee = mapper.getEmpByIdAndLastName(1, "tom");
+			System.out.println(employee);
 			Map<String, Object> map1 = new HashMap<>();
 			map1.put("id", 1);
 			map1.put("lastName", "Tom");
@@ -100,7 +103,7 @@ public class AppTest {
 	}
 	
 	@Test
-	public void testStep() throws IOException{
+	public void test04() throws IOException{
 		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
 		// 1、获取到的SqlSession不会自动提交数据
 		SqlSession openSession = sqlSessionFactory.openSession();
@@ -115,6 +118,32 @@ public class AppTest {
 			System.out.println(deptByIdStep.getDepartmentName());
 			System.out.println(deptByIdStep.getEmps());
 		}finally{
+			openSession.close();
+		}
+	}
+	
+	//级联查询
+	@Test
+	public void test05() throws IOException {
+		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+		
+		SqlSession openSession = sqlSessionFactory.openSession();
+		
+		try {
+			EmployeeMapperPlus mapper = openSession.getMapper(EmployeeMapperPlus.class);
+			
+			Employee empById = mapper.getEmpById(1);
+			System.out.println(empById);
+			
+			Employee empAndDept = mapper.getEmpAndDept(1);
+			System.out.println(empAndDept);
+			System.out.println(empAndDept.getDept());
+			
+			Employee employee = mapper.getEmpByIdStep(3);
+			System.out.println(employee);
+			System.out.println(employee.getDept());
+			System.out.println(employee.getDept());
+		}catch (Exception e) {
 			openSession.close();
 		}
 	}
