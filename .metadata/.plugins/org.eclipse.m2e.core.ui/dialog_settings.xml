@@ -70,12 +70,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.xhjc.mabatis3ssm"/>
+			<item value="com.xhjc.mabatis3_ssm"/>
 			<item value="com.xhjc.springmvc_demo"/>
 		</list>
 		<list key="groupId">
 			<item value="com.xhjc"/>
 		</list>
 		<list key="artifactId">
+			<item value="mabatis3ssm"/>
+			<item value="mabatis3-ssm"/>
 			<item value="springmvc-demo"/>
 		</list>
 		<list key="projectNameTemplate">

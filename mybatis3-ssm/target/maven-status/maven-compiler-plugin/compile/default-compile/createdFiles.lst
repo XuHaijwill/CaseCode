@@ -1,0 +1,8 @@
+com\xhjc\demo01\dao\EmployeeMapper.class
+com\xhjc\demo01\dao\EmployeeMapperAnnotation.class
+com\xhjc\demo01\bean\Employee.class
+com\xhjc\demo_mapper\dao\DepartmentMapper.class
+com\xhjc\demo_mapper\dao\EmployeeMapperPlus.class
+com\xhjc\demo_mapper\bean\Department.class
+com\xhjc\demo_mapper\bean\Employee.class
+com\xhjc\demo_mapper\dao\EmployeeMapper.class
