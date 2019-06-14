@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;com.imooc&apos; to &apos;com.xhjc&apos;&#x0D;&#x0A;- Original project: &apos;wechatorder&apos;&#x0D;&#x0A;- Original element: &apos;wechatorder/src/main/java/com.imooc&apos;&#x0D;&#x0A;- Renamed element: &apos;wechatorder/src/main/java/com.xhjc&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.imooc&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.imooc" name="com.xhjc" qualified="false" references="true" stamp="1557215492013" textual="false" version="1.0"/>
-</session>

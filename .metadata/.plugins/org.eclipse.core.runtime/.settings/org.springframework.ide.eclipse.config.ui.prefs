@@ -1,8 +1,2 @@
-//com.springsource.config.ui.prefs.activePageIndex\:/appDemo-OAuth2/src/main/webapp/WEB-INF/applicationContext-security.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
-//com.springsource.config.ui.prefs.activePageIndex\:/appDemo-OAuth2/src/main/webapp/WEB-INF/test-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage id\="com.springsource.sts.config.ui.editors.namespaces" index\="1" kind\="formPage"/>
-//com.springsource.config.ui.prefs.activePageIndex\:/mybatis3-ssm/src/main/resources/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
-//com.springsource.config.ui.prefs.activePageIndex\:/spring4-demo/src/main/resources/aop/annotation/spring-aop-annotation.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
-//com.springsource.config.ui.prefs.activePageIndex\:/spring4-demo/src/main/resources/jdbc/applicationContext-tx.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
-//com.springsource.config.ui.prefs.activePageIndex\:/springmvc-demo/src/main/resources/springmvc.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
-com.springsource.config.ui.prefs.tabs.dialog=always
+//com.springsource.config.ui.prefs.activePageIndex\:/spring4-demo/src/main/resources/jdbc/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 eclipse.preferences.version=1
