@@ -1,0 +1,19 @@
+package com.xhjc.thread;
+
+public class TestSync {
+
+}
+
+/*
+ * 简单表示银行账户
+ */
+class Account {
+	int money;
+	String aname;
+
+	public Account(int money, String aname) {
+		super();
+		this.money = money;
+		this.aname = aname;
+	}
+}

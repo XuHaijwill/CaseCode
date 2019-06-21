@@ -1,0 +1,17 @@
+package com.xhjc.thread;
+
+public class ThreadTest {
+	
+	public static void main(String[] args) {
+		Runnable runable = new Runnable() {
+			Count count = new Count();  
+			@Override
+			public void run() {
+				count.count();		
+			}
+		};
+		for(int i = 0; i<=10; i++) {  
+            new Thread(runable).start();  
+        }  
+	}
+}
