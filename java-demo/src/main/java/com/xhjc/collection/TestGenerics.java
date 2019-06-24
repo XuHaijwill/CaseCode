@@ -18,7 +18,7 @@ public class TestGenerics {
 		InetAddress addr = InetAddress.getLocalHost();
         //返回IP地址：192.168.1.110
         System.out.println(addr.getHostAddress()); 
-        //输出计算机名：gaoqi
+        //输出计算机名：
         System.out.println(addr.getHostName()); 
 	}
 }

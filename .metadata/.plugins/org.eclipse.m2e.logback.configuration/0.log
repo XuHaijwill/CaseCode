@@ -1088,3 +1088,7 @@ java.net.SocketTimeoutException: Read timed out
 2019-06-21 11:55:27,215 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
 2019-06-21 11:55:27,216 [Worker-63: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
 2019-06-21 11:55:27,217 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
+2019-06-22 11:23:50,025 [Worker-203: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-22 11:23:50,047 [Worker-203: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\main\resources
+2019-06-22 11:23:50,049 [Worker-203: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-22 11:23:50,050 [Worker-203: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\git_resources\CaseCode\java-demo\src\test\resources
