@@ -11,4 +11,6 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springboot-helloworld" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1561277906296_2" label="Window Working Set" name="Aggregate for window 1561277906295"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1561434493190_4" label="Window Working Set" name="Aggregate for window 1561434493189"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1561445523280_5" label="Window Working Set" name="Aggregate for window 1561445523280"/>
 </workingSetManager>

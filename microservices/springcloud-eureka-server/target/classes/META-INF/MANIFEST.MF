@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: producer
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: 11511
+Implementation-Vendor-Id: com.mahuan
+Build-Jdk: 1.8.0_60
+Implementation-URL: http://projects.spring.io/spring-boot/producer/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
