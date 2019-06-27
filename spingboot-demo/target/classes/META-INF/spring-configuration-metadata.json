@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.xhjc.spingbootdemo.bean.Person",
+      "sourceType": "com.xhjc.spingbootdemo.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xhjc.spingbootdemo.bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xhjc.spingbootdemo.bean.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.xhjc.spingbootdemo.bean.Dog",
+      "sourceType": "com.xhjc.spingbootdemo.bean.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.xhjc.spingbootdemo.bean.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.xhjc.spingbootdemo.bean.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.xhjc.spingbootdemo.bean.Person"
+    }
+  ],
+  "hints": []
+}

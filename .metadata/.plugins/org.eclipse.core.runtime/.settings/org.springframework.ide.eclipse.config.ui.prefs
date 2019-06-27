@@ -1,3 +1,4 @@
 //com.springsource.config.ui.prefs.activePageIndex\:/spring4-demo/src/main/resources/aop/xml/applicationContext-xml.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/spring4-demo/src/main/resources/jdbc/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/springmvc-demo/src/main/resources/springmvc.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 eclipse.preferences.version=1

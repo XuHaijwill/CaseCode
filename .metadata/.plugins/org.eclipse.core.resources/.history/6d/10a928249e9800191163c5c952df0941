@@ -1,0 +1,5 @@
+package com.xhjc.spingbootdemo.bean;
+
+public class Dog {
+
+}

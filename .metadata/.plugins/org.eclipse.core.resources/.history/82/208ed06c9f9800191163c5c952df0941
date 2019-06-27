@@ -1,0 +1,10 @@
+server.port=9000
+#spring.profiles.active=dev
+person.age=${random.int}
+person.boss=false
+person.last-name=张三${random.uuid}
+person.maps.k1=v1
+person.maps.k2=v2
+person.lists=a,b,c
+person.dog.name=${person.hello:hello}wanghuahu
+person.dog.age=15

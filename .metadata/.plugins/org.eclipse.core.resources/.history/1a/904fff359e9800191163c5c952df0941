@@ -1,0 +1,14 @@
+package com.xhjc.spingbootdemo.bean;
+
+import java.util.Map;
+
+public class Person {
+
+	private String lastName;
+	private Integer age;
+	private Boolean boss;
+	private Map<String, Object> maps;
+	private List<Object> lists;
+	private Dog dog;
+
+}

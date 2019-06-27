@@ -1,0 +1,5 @@
+package com.xhjc.spingbootdemo.controller;
+
+public class HelloController {
+
+}
