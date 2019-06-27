@@ -15,6 +15,9 @@
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1558966493856_1" label="Java Test Sources" name="test">
 <item elementID="=java-demo/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1561600438419_5" label="springmvc-demo" name="springmvc-demo">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springmvc-demo" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1558966509927_2" label="Window Working Set" name="Aggregate for window 1558966509927"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1560491825252_3" label="Window Working Set" name="Aggregate for window 1560491825252"/>
 </workingSetManager>

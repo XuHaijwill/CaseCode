@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:10:03:50 +0800] "GET /springmvc/testRedirect HTTP/1.1" 302 - http-bio-8082-exec-2 530
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:10:03:50 +0800] "GET /index.jsp HTTP/1.1" 200 3050 http-bio-8082-exec-3 235
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:10:03:51 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8082-exec-4 11
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:10:04:01 +0800] "GET /springmvc/testMap HTTP/1.1" 200 452 http-bio-8082-exec-5 207
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:10:04:08 +0800] "GET /springmvc/testCookieValue HTTP/1.1" 200 434 http-bio-8082-exec-7 31
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:10:04:12 +0800] "GET /springmvc/testMap HTTP/1.1" 200 452 http-bio-8082-exec-8 13
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:10:05:45 +0800] "POST /springmvc/testPojo HTTP/1.1" 500 3016 http-bio-8082-exec-2 102
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:10:05:58 +0800] "GET /springmvc/testServletAPI HTTP/1.1" 200 15 http-bio-8082-exec-4 6
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:10:07:38 +0800] "POST /springmvc/testPojo HTTP/1.1" 500 3016 http-bio-8082-exec-7 16
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:10:09:41 +0800] "POST /springmvc/testPojo HTTP/1.1" 200 507 http-bio-8082-exec-9 706

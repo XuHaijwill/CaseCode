@@ -8,6 +8,20 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springmvc-demo Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-framework-bom</artifactId>
+				<version>4.3.24.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -16,7 +30,7 @@
 			<scope>test</scope>
 		</dependency>
 
-       <dependency>
+		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
@@ -26,7 +40,21 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>4.0.0.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
 		</dependency>
 
 	</dependencies>
@@ -45,27 +73,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.6</version>
-				<!-- <configuration> &lt;!&ndash; <failOnMissingWebXml>false</failOnMissingWebXml> 
-					&ndash;&gt; &lt;!&ndash; 源码的编译器版本 &ndash;&gt; <source>1.8</source> &lt;!&ndash; 
-					class的编译器版本 &ndash;&gt; <target>1.8</target> </configuration> -->
 			</plugin>
-
-			<!-- jrebel热部署插件 -->
-			<!-- <plugin>
-				<groupId>org.zeroturnaround</groupId>
-				<artifactId>jrebel-maven-plugin</artifactId>
-				<version>1.1.8</version>
-				<executions>
-					<execution>
-						<id>generate-rebel-xml</id>
-						<phase>process-resources</phase>
-						<goals>
-							<goal>generate</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin> -->
-			
 		</plugins>
 	</build>
 </project>

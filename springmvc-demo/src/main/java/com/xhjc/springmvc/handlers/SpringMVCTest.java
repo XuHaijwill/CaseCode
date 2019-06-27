@@ -24,7 +24,7 @@ import com.xhjc.springmvc.entities.User;
 
 @Controller
 @RequestMapping("/springmvc")
-@SessionAttributes(value="user",types= {String.class})
+//@SessionAttributes(value="user",types= {String.class})
 public class SpringMVCTest {
 	
 	public final String SUCCESS = "success";
