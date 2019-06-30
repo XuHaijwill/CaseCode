@@ -24,7 +24,7 @@ public class MyAppConfig extends WebMvcConfigurerAdapter{
         return new HelloService();
     }
 
-    @Bean //註冊到容器去
+    @Bean //注册到容器去
     public WebMvcConfigurerAdapter webMvcConfigurerAdapter(){
         WebMvcConfigurerAdapter adapter = new WebMvcConfigurerAdapter() {
             @Override
@@ -44,6 +44,7 @@ public class MyAppConfig extends WebMvcConfigurerAdapter{
         return adapter;
     }
 
+    //使用自定义的国际化
     @Bean
     public LocaleResolver localeResolver(){
         return new MyLocalResolver();
