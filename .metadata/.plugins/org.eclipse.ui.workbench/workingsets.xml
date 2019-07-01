@@ -18,9 +18,7 @@
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1561600438419_5" label="springmvc-demo" name="springmvc-demo">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springmvc-demo" type="4"/>
 </workingSet>
-<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1561604086483_6" label="spingboot-demo" name="spingboot-demo">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spingboot-demo" type="4"/>
-</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1561604086483_6" label="spingboot-demo" name="spingboot-demo"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1558966509927_2" label="Window Working Set" name="Aggregate for window 1558966509927"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1560491825252_3" label="Window Working Set" name="Aggregate for window 1560491825252"/>
 </workingSetManager>

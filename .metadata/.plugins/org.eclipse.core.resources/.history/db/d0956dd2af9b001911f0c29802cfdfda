@@ -1,0 +1,5 @@
+package com.xhjc.design.singleton;
+
+public class SingletonPatternDemo {
+
+}

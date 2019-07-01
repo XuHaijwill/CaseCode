@@ -1,0 +1,5 @@
+package com.xhjc.design.factory;
+
+public class FactoryPatternDemo {
+
+}
