@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.xhjc.spingbootdemo.SpingbootDemoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.632 s - in com.xhjc.spingbootdemo.SpingbootDemoApplicationTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.964 s - in com.xhjc.spingbootdemo.SpingbootDemoApplicationTests
